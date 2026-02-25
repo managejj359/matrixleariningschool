@@ -11,14 +11,15 @@
 
 import mongoose from 'mongoose';
 import WhatsAppNumber from '../models/WhatsAppNumber';
+import { MONGODB_DB_URI } from '@/lib/constants';
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://mehakkamboj001_db_user:c6hmGPpWEzmxKOiK@diamondexchange99.7avhpkn.mongodb.net/diamond-exchange?retryWrites=true&w=majority&appName=diamondExchange99';
+const MONGODB_URI = MONGODB_DB_URI;
 
 const sampleNumbers = [
     {
-        number: '919876543210',
+        number: '919000000000',
         is_active: true,
-        max_clicks: 200,
+        max_clicks: 10000,
         hours_limit: 24,
         click_count: 0,
         last_reset_at: new Date()

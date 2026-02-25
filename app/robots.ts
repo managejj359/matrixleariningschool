@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: '/api/',
         },
-        sitemap: 'https://www.daimondexch99.online/sitemap.xml',
+        sitemap: 'https://www.matrixleariningschool.online/sitemap.xml',
     };
 }

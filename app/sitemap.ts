@@ -3,10 +3,10 @@ import { MetadataRoute } from 'next';
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://www.daimondexch99.online';
+    const baseUrl = 'https://www.matrixleariningschool.online/';
     const pages = [
         '',
-        '/diamond-exchange',
+        '/learning-center',
         '/about',
         '/contact',
         '/privacy-policy',
@@ -17,6 +17,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${baseUrl}${page}`,
         lastModified: new Date(),
         changeFrequency: 'daily',
-        priority: page === '' ? 1 : page === '/diamond-exchange' ? 0.9 : 0.8,
+        priority: page === '' ? 1 : page === '/learning-center' ? 0.9 : 0.8,
     }));
 }
