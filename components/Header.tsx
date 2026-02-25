@@ -63,7 +63,7 @@ export default function Header() {
             <Button
                 variant="contained"
                 fullWidth
-                onClick={() => handleWhatsAppClick("Hi, I want to join Matrix Learning as a student/tutor.")}
+                onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
                 sx={{
                     mt: 2,
                     bgcolor: '#1A56DB',
@@ -89,7 +89,7 @@ export default function Header() {
                                 <IconButton
                                     size="small"
                                     sx={{ color: '#25D366' }}
-                                    onClick={() => handleWhatsAppClick("Hi Matrix Learning Team!")}
+                                    onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
                                     aria-label="Contact on WhatsApp"
                                 >
                                     <WhatsAppIcon fontSize="small" />
@@ -97,7 +97,7 @@ export default function Header() {
                                 <IconButton
                                     size="small"
                                     sx={{ color: '#1A56DB' }}
-                                    onClick={() => handleWhatsAppClick("Hi, I have a query regarding STEM classes.")}
+                                    onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
                                     aria-label="Email Us"
                                 >
                                     <MailOutlineIcon fontSize="small" />
@@ -140,7 +140,7 @@ export default function Header() {
                         <Button
                             variant="outlined"
                             size="small"
-                            onClick={() => handleWhatsAppClick("Hi, I'm interested in joining as a tutor.")}
+                            onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
                             sx={{
                                 color: '#1A56DB',
                                 borderColor: '#1A56DB',
@@ -159,7 +159,7 @@ export default function Header() {
                         <Button
                             variant="contained"
                             size="small"
-                            onClick={() => handleWhatsAppClick("Hi, I want to enroll in a STEM class.")}
+                            onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
                             sx={{
                                 bgcolor: '#1A56DB',
                                 color: '#fff',

@@ -31,7 +31,7 @@ export default function ContactPage() {
                             <Button
                                 variant="contained"
                                 size="large"
-                                onClick={() => handleWhatsAppClick("Hi Matrix Learning, I have a question!")}
+                                onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
                                 sx={{ bgcolor: '#25D366', '&:hover': { bgcolor: '#128C7E' }, px: 6, py: 1.5, borderRadius: 10 }}
                             >
                                 Start Chat
@@ -48,7 +48,7 @@ export default function ContactPage() {
                             <Button
                                 variant="outlined"
                                 size="large"
-                                onClick={() => handleWhatsAppClick("Hi, I'd like to reach out via email for Matrix Learning.")}
+                                onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
                                 sx={{ color: '#1A56DB', borderColor: '#1A56DB', px: 6, py: 1.5, borderRadius: 10 }}
                             >
                                 Contact Support

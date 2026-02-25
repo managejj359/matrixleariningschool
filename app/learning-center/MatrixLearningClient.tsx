@@ -139,7 +139,7 @@ export default function MatrixLearningClient() {
                                     <Button
                                         variant="contained"
                                         size="large"
-                                        onClick={() => handleWhatsAppClick("Hi, I'm interested in enrolling in STEM classes.")}
+                                        onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
                                         sx={{ bgcolor: '#1A56DB', color: '#fff', '&:hover': { bgcolor: '#1E429F' } }}
                                     >
                                         Explore Classes
@@ -147,7 +147,7 @@ export default function MatrixLearningClient() {
                                     <Button
                                         variant="outlined"
                                         size="large"
-                                        onClick={() => handleWhatsAppClick("Hi, I want to learn more about Matrix Learning.")}
+                                        onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
                                         sx={{ color: '#1A56DB', borderColor: '#1A56DB', '&:hover': { borderColor: '#1E429F', bgcolor: 'rgba(26, 86, 219, 0.05)' } }}
                                     >
                                         Learn About Us
@@ -286,7 +286,7 @@ export default function MatrixLearningClient() {
                         <Button
                             variant="contained"
                             size="large"
-                            onClick={() => handleWhatsAppClick("Hi, can I see the list of all courses?")}
+                            onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
                             sx={{ bgcolor: '#1A56DB', px: 6, py: 2, borderRadius: 10 }}
                         >
                             View All Courses
@@ -333,7 +333,7 @@ export default function MatrixLearningClient() {
                     height: 64,
                     boxShadow: '0 10px 30px rgba(37, 211, 102, 0.4)'
                 }}
-                onClick={() => handleWhatsAppClick("Hi, I have a quick question!")}
+                onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
                 disabled={loading}
             >
                 <WhatsAppIcon />
