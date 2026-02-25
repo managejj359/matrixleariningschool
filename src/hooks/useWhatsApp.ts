@@ -12,8 +12,8 @@ export const useWhatsApp = () => {
         }
     }, [dispatch, fetched, loading]);
 
-    const handleWhatsAppClick = (message = "Hi, I'm ready to join!") => {
-        console.log(activeWhatsAppNumber,"activeWhatsAppNumber")
+    const handleWhatsAppClick = (message = "I Want New 🆔") => {
+        console.log(activeWhatsAppNumber, "activeWhatsAppNumber")
         if (activeWhatsAppNumber) {
             dispatch(trackWhatsAppClick(activeWhatsAppNumber.id));
             const encodedMessage = encodeURIComponent(message);

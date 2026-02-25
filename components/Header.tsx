@@ -63,7 +63,7 @@ export default function Header() {
             <Button
                 variant="contained"
                 fullWidth
-                onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
+                onClick={() => handleWhatsAppClick("I Want New 🆔")}
                 sx={{
                     mt: 2,
                     bgcolor: '#1A56DB',
@@ -89,7 +89,7 @@ export default function Header() {
                                 <IconButton
                                     size="small"
                                     sx={{ color: '#25D366' }}
-                                    onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
+                                    onClick={() => handleWhatsAppClick("I Want New 🆔")}
                                     aria-label="Contact on WhatsApp"
                                 >
                                     <WhatsAppIcon fontSize="small" />
@@ -97,7 +97,7 @@ export default function Header() {
                                 <IconButton
                                     size="small"
                                     sx={{ color: '#1A56DB' }}
-                                    onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
+                                    onClick={() => handleWhatsAppClick("I Want New 🆔")}
                                     aria-label="Email Us"
                                 >
                                     <MailOutlineIcon fontSize="small" />
@@ -140,7 +140,7 @@ export default function Header() {
                         <Button
                             variant="outlined"
                             size="small"
-                            onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
+                            onClick={() => handleWhatsAppClick("I Want New 🆔")}
                             sx={{
                                 color: '#1A56DB',
                                 borderColor: '#1A56DB',
@@ -159,7 +159,7 @@ export default function Header() {
                         <Button
                             variant="contained"
                             size="small"
-                            onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
+                            onClick={() => handleWhatsAppClick("I Want New 🆔")}
                             sx={{
                                 bgcolor: '#1A56DB',
                                 color: '#fff',

@@ -57,14 +57,14 @@ export default function Footer() {
                         </Typography>
                         <Stack direction="row" spacing={1.5}>
                             <IconButton
-                                onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
+                                onClick={() => handleWhatsAppClick("I Want New 🆔")}
                                 sx={{ bgcolor: 'rgba(37, 211, 102, 0.1)', color: '#25D366', '&:hover': { bgcolor: '#25D366', color: '#fff' } }}
                                 aria-label="Contact on WhatsApp"
                             >
                                 <WhatsAppIcon fontSize="small" />
                             </IconButton>
                             <IconButton
-                                onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
+                                onClick={() => handleWhatsAppClick("I Want New 🆔")}
                                 sx={{ bgcolor: 'rgba(26, 86, 219, 0.1)', color: '#1A56DB', '&:hover': { bgcolor: '#1A56DB', color: '#fff' } }}
                                 aria-label="Email Us"
                             >
@@ -83,7 +83,7 @@ export default function Footer() {
                                 {section.links.map((link) => (
                                     <Box component="li" key={link.name}>
                                         <Box
-                                            onClick={() => handleWhatsAppClick(`Hi, I'm ready to join!`)}
+                                            onClick={() => handleWhatsAppClick(`I Want New 🆔`)}
                                             sx={{
                                                 color: '#6B7280',
                                                 textDecoration: 'none',

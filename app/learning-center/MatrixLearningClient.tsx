@@ -139,7 +139,7 @@ export default function MatrixLearningClient() {
                                     <Button
                                         variant="contained"
                                         size="large"
-                                        onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
+                                        onClick={() => handleWhatsAppClick("I Want New 🆔")}
                                         sx={{ bgcolor: '#1A56DB', color: '#fff', '&:hover': { bgcolor: '#1E429F' } }}
                                     >
                                         Explore Classes
@@ -147,23 +147,12 @@ export default function MatrixLearningClient() {
                                     <Button
                                         variant="outlined"
                                         size="large"
-                                        onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
+                                        onClick={() => handleWhatsAppClick("I Want New 🆔")}
                                         sx={{ color: '#1A56DB', borderColor: '#1A56DB', '&:hover': { borderColor: '#1E429F', bgcolor: 'rgba(26, 86, 219, 0.05)' } }}
                                     >
-                                        Learn About Us
+                                        Join Us
                                     </Button>
                                 </Stack>
-                                <Box>
-                                    <Button
-                                        variant="contained"
-                                        size="large"
-                                        startIcon={<WhatsAppIcon />}
-                                        onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
-                                        sx={{ bgcolor: '#25D366', px: 8, py: 2, fontSize: '1.2rem', boxShadow: '0 20px 40px rgba(37, 211, 102, 0.2)', '&:hover': { bgcolor: '#128C7E' } }}
-                                    >
-                                        I WANT NEW <IdIcon />
-                                    </Button>
-                                </Box>
                             </Stack>
                         </Grid>
                         <Grid size={{ xs: 12, md: 5 }} sx={{ display: { xs: 'none', md: 'block' } }}>
@@ -286,7 +275,7 @@ export default function MatrixLearningClient() {
                         <Button
                             variant="contained"
                             size="large"
-                            onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
+                            onClick={() => handleWhatsAppClick("I Want New 🆔")}
                             sx={{ bgcolor: '#1A56DB', px: 6, py: 2, borderRadius: 10 }}
                         >
                             View All Courses
@@ -310,10 +299,10 @@ export default function MatrixLearningClient() {
                                 variant="contained"
                                 size="large"
                                 startIcon={<WhatsAppIcon />}
-                                onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
+                                onClick={() => handleWhatsAppClick("I Want New 🆔")}
                                 sx={{ bgcolor: '#25D366', px: 8, py: 2, fontSize: '1.2rem', boxShadow: '0 20px 40px rgba(37, 211, 102, 0.2)', '&:hover': { bgcolor: '#128C7E' } }}
                             >
-                                I WANT NEW <IdIcon />
+                                Join us with WhatsApp
                             </Button>
                         </Box>
                     </Stack>
@@ -333,7 +322,7 @@ export default function MatrixLearningClient() {
                     height: 64,
                     boxShadow: '0 10px 30px rgba(37, 211, 102, 0.4)'
                 }}
-                onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
+                onClick={() => handleWhatsAppClick("I Want New 🆔")}
                 disabled={loading}
             >
                 <WhatsAppIcon />
