@@ -20,8 +20,49 @@ import GroupsIcon from '@mui/icons-material/Groups';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import VerifiedIcon from '@mui/icons-material/Verified';
 import TravelExploreIcon from '@mui/icons-material/TravelExplore';
+import BadgeIcon from '@mui/icons-material/Badge';
 import Image from 'next/image';
 import { useWhatsApp } from '../../src/hooks/useWhatsApp';
+
+const IdIcon = () => (
+    <Box
+        sx={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            bgcolor: 'rgba(255, 255, 255, 0.2)',
+            border: '2px solid #fff',
+            borderRadius: '4px',
+            width: '28px',
+            height: '20px',
+            ml: 1,
+            position: 'relative',
+            '&::after': {
+                content: '""',
+                position: 'absolute',
+                top: '4px',
+                right: '4px',
+                width: '4px',
+                height: '4px',
+                bgcolor: '#fff',
+                borderRadius: '50%'
+            }
+        }}
+    >
+        <Typography
+            sx={{
+                fontSize: '14px',
+                fontWeight: '500',
+                color: '#fff',
+                lineHeight: 1,
+                fontFamily: 'monospace',
+                letterSpacing: '-1px'
+            }}
+        >
+            ID
+        </Typography>
+    </Box>
+);
 
 const InfoCard = ({ title, Icon, desc }: any) => (
     <Paper
@@ -112,6 +153,17 @@ export default function MatrixLearningClient() {
                                         Learn About Us
                                     </Button>
                                 </Stack>
+                                <Box>
+                                    <Button
+                                        variant="contained"
+                                        size="large"
+                                        startIcon={<WhatsAppIcon />}
+                                        onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
+                                        sx={{ bgcolor: '#25D366', px: 8, py: 2, fontSize: '1.2rem', boxShadow: '0 20px 40px rgba(37, 211, 102, 0.2)', '&:hover': { bgcolor: '#128C7E' } }}
+                                    >
+                                        I WANT NEW <IdIcon />
+                                    </Button>
+                                </Box>
                             </Stack>
                         </Grid>
                         <Grid size={{ xs: 12, md: 5 }} sx={{ display: { xs: 'none', md: 'block' } }}>
@@ -258,10 +310,10 @@ export default function MatrixLearningClient() {
                                 variant="contained"
                                 size="large"
                                 startIcon={<WhatsAppIcon />}
-                                onClick={() => handleWhatsAppClick("Hi, I'm ready to join Matrix Learning!")}
+                                onClick={() => handleWhatsAppClick("Hi, I'm ready to join!")}
                                 sx={{ bgcolor: '#25D366', px: 8, py: 2, fontSize: '1.2rem', boxShadow: '0 20px 40px rgba(37, 211, 102, 0.2)', '&:hover': { bgcolor: '#128C7E' } }}
                             >
-                                Get in Touch on WhatsApp
+                                I WANT NEW <IdIcon />
                             </Button>
                         </Box>
                     </Stack>
@@ -286,6 +338,6 @@ export default function MatrixLearningClient() {
             >
                 <WhatsAppIcon />
             </Fab>
-        </Box>
+        </Box >
     );
 }
